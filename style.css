@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    min-height: 100vh;
+    color: white;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.filter-btn{
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 30px;
+    background: #334155;
+    color: white;
+    transition: 0.3s;
+}
+
+.filter-btn:hover{
+    background: #3b82f6;
+    transform: translateY(-2px);
+}
+
+.filter-btn.active{
+    background: #2563eb;
+}
+
+.card{
+    overflow: hidden;
+    border: none;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.product{
+    transition: all 0.4s ease;
+}
+
+.hide{
+    display: none;
+}

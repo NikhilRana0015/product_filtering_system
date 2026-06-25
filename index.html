@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter System</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container py-5">
+
+        <h1 class="text-center mb-4">Product Filter System</h1>
+
+        <!-- Filter Buttons -->
+        <div class="text-center mb-5">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="electronics">Electronics</button>
+            <button class="filter-btn" data-filter="clothing">Clothing</button>
+            <button class="filter-btn" data-filter="books">Books</button>
+        </div>
+
+        <!-- Products -->
+        <div class="row g-4">
+
+            <div class="col-md-4 product" data-category="electronics">
+                <div class="card shadow-sm">
+                    <img src="./images/img6.avif" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Laptop</h5>
+                        <p>High-performance laptop.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="clothing">
+                <div class="card shadow-sm">
+                    <img src="./images/img1.avif" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Jacket</h5>
+                        <p>Stylish winter jacket.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="books">
+                <div class="card shadow-sm">
+                    <img src="./images/img2.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>JavaScript Guide</h5>
+                        <p>Learn JavaScript from scratch.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="electronics">
+                <div class="card shadow-sm">
+                    <img src="./images/img3.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>Smartphone</h5>
+                        <p>Latest smartphone technology.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="clothing">
+                <div class="card shadow-sm">
+                    <img src="/images/img5.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>T-Shirt</h5>
+                        <p>Comfortable cotton t-shirt.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product" data-category="books">
+                <div class="card shadow-sm">
+                    <img src="/images/img4.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5>HTML & CSS</h5>
+                        <p>Web development essentials.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
